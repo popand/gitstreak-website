@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GitStreak – Track Your GitHub Contribution Streak</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <meta name="description" content="Keep your GitHub contribution streak alive. Track commits, build habits, and level up your coding consistency." />
+  <meta property="og:title" content="GitStreak – Track Your GitHub Contribution Streak" />
+  <meta property="og:description" content="Keep your GitHub contribution streak alive. Track commits, build habits, and level up your coding consistency." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://gitstreak.app" />
+  <meta name="twitter:card" content="summary_large_image" />
+</head>
+<body class="bg-gradient-to-br from-green-50 via-white to-purple-50 text-gray-900 font-sans">
+
+  <!-- Hero Section -->
+  <section class="min-h-screen flex items-center justify-center px-4">
+    <div class="max-w-6xl w-full flex flex-col lg:flex-row items-center lg:items-start gap-8 lg:gap-12">
+      <!-- Text Content -->
+      <div class="flex-1 text-center lg:text-left">
+        <!-- App Title and Logo -->
+        <div class="flex items-center justify-center lg:justify-start mb-8">
+          <div class="w-12 h-12 mr-3 bg-gradient-to-br from-green-500 to-purple-600 rounded-xl flex items-center justify-center">
+            <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+            </svg>
+          </div>
+          <h2 class="text-3xl md:text-4xl font-bold">GitStreak</h2>
+        </div>
+        
+        <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight bg-gradient-to-r from-green-600 to-purple-600 bg-clip-text text-transparent">
+          Never Break Your GitHub Streak Again
+        </h1>
+        <p class="text-xl md:text-2xl max-w-2xl mb-12 mx-auto lg:mx-0 text-gray-700">
+          Track your GitHub contributions, build coding habits, and gamify your development journey with achievements and levels.
+        </p>
+        
+        <!-- App Store Button -->
+        <a href="#" class="inline-block">
+          <img
+            src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+            alt="Download on the App Store"
+            class="h-16"
+          />
+        </a>
+      </div>
+
+      <!-- App Screenshot -->
+      <div class="flex-1 max-w-sm lg:max-w-md">
+        <div class="relative">
+          <!-- Phone Frame -->
+          <div class="bg-gray-900 rounded-[3rem] p-3 shadow-2xl">
+            <div class="bg-gray-100 rounded-[2.5rem] overflow-hidden">
+              <!-- Mock App Screen -->
+              <div class="bg-white p-6">
+                <!-- Status Bar -->
+                <div class="flex justify-between items-center mb-6 text-xs text-gray-600">
+                  <span>9:41 AM</span>
+                  <div class="flex gap-1">
+                    <div class="w-4 h-3 bg-gray-800 rounded-sm"></div>
+                    <div class="w-4 h-3 bg-gray-800 rounded-sm"></div>
+                    <div class="w-4 h-3 bg-gray-800 rounded-sm"></div>
+                  </div>
+                </div>
+                
+                <!-- App Content -->
+                <div class="space-y-4">
+                  <!-- Streak Card -->
+                  <div class="bg-gradient-to-r from-green-500 to-purple-600 p-6 rounded-2xl text-white">
+                    <div class="text-sm opacity-90 mb-1">Current Streak</div>
+                    <div class="text-5xl font-bold mb-2">47</div>
+                    <div class="text-sm opacity-90">days</div>
+                  </div>
+                  
+                  <!-- Level Progress -->
+                  <div class="bg-gray-50 p-4 rounded-xl">
+                    <div class="flex justify-between text-sm text-gray-600 mb-2">
+                      <span>Level 8</span>
+                      <span>2,340 XP</span>
+                    </div>
+                    <div class="w-full bg-gray-200 rounded-full h-2">
+                      <div class="bg-gradient-to-r from-green-500 to-purple-600 h-2 rounded-full" style="width: 65%"></div>
+                    </div>
+                  </div>
+                  
+                  <!-- Weekly Activity -->
+                  <div class="bg-gray-50 p-4 rounded-xl">
+                    <div class="text-sm text-gray-600 mb-3">This Week</div>
+                    <div class="flex justify-between items-end h-20">
+                      <div class="w-8 bg-green-500 rounded" style="height: 60%"></div>
+                      <div class="w-8 bg-green-500 rounded" style="height: 80%"></div>
+                      <div class="w-8 bg-green-500 rounded" style="height: 40%"></div>
+                      <div class="w-8 bg-green-500 rounded" style="height: 90%"></div>
+                      <div class="w-8 bg-green-500 rounded" style="height: 70%"></div>
+                      <div class="w-8 bg-gray-300 rounded" style="height: 10%"></div>
+                      <div class="w-8 bg-gray-300 rounded" style="height: 10%"></div>
+                    </div>
+                    <div class="flex justify-between text-xs text-gray-500 mt-2">
+                      <span>M</span>
+                      <span>T</span>
+                      <span>W</span>
+                      <span>T</span>
+                      <span>F</span>
+                      <span>S</span>
+                      <span>S</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="py-20 px-4">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-4xl md:text-5xl font-bold text-center mb-16">Features That Keep You Coding</h2>
+      
+      <div class="grid md:grid-cols-3 gap-8">
+        <!-- Feature 1 -->
+        <div class="text-center">
+          <div class="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-green-500 to-purple-600 rounded-xl flex items-center justify-center">
+            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold mb-2">Streak Tracking</h3>
+          <p class="text-gray-600">Monitor your GitHub contribution streak in real-time with beautiful visualizations</p>
+        </div>
+        
+        <!-- Feature 2 -->
+        <div class="text-center">
+          <div class="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-green-500 to-purple-600 rounded-xl flex items-center justify-center">
+            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold mb-2">Smart Reminders</h3>
+          <p class="text-gray-600">Never forget to commit with customizable notifications and reminders</p>
+        </div>
+        
+        <!-- Feature 3 -->
+        <div class="text-center">
+          <div class="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-green-500 to-purple-600 rounded-xl flex items-center justify-center">
+            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold mb-2">Achievements</h3>
+          <p class="text-gray-600">Unlock badges and achievements as you progress through your coding journey</p>
+        </div>
+      </div>
+      
+      <div class="grid md:grid-cols-3 gap-8 mt-8">
+        <!-- Feature 4 -->
+        <div class="text-center">
+          <div class="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-green-500 to-purple-600 rounded-xl flex items-center justify-center">
+            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold mb-2">Detailed Analytics</h3>
+          <p class="text-gray-600">Visualize your coding patterns with weekly, monthly, and yearly insights</p>
+        </div>
+        
+        <!-- Feature 5 -->
+        <div class="text-center">
+          <div class="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-green-500 to-purple-600 rounded-xl flex items-center justify-center">
+            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold mb-2">Social Features</h3>
+          <p class="text-gray-600">Connect with friends, share achievements, and compete on leaderboards</p>
+        </div>
+        
+        <!-- Feature 6 -->
+        <div class="text-center">
+          <div class="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-green-500 to-purple-600 rounded-xl flex items-center justify-center">
+            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"></path>
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold mb-2">Customizable Goals</h3>
+          <p class="text-gray-600">Set personal targets and track your progress towards becoming a better developer</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-20 px-4 bg-gradient-to-r from-green-500 to-purple-600 text-white">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-4xl md:text-5xl font-bold mb-6">Start Building Your Streak Today</h2>
+      <p class="text-xl md:text-2xl mb-8 opacity-90">Join thousands of developers who are building consistent coding habits</p>
+      <a href="#" class="inline-block">
+        <img
+          src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+          alt="Download on the App Store"
+          class="h-16"
+        />
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center text-sm py-8 text-gray-500">
+    © 2025 GitStreak. Built with 🔥 by <a href="https://github.com/popand" target="_blank" class="underline">Andrei Pop</a>
+  </footer>
+
+</body>
+</html>
